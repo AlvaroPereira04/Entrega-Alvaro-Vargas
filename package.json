@@ -1,8 +1,8 @@
 {
-  "name": "primera-pre-entrega",
+  "name": "Pre-Entrega",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon src/app.js",
