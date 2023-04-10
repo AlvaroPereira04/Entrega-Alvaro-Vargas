@@ -1,6 +1,6 @@
 const {Router} = require('express')
 const  {uploader} = require('../multer')
-const ProductManager = require('../controllers/productManager.js')
+const ProductManager = require('../controllers/productManager')
 
 const router = Router()
 const productsList = new ProductManager('./products.json')

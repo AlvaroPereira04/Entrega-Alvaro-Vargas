@@ -25,7 +25,7 @@ class ProductManager {
     }
     addProduct = async (product, imageName, imagePath) => {
         try {
-            console.log('que pasa', product);
+            console.log('que onda 2', product);
             let products = await this.getProducts()
             let newId
             let newCode = products.find(prod => prod.code === product.code)

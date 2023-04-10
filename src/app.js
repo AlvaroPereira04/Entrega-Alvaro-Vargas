@@ -1,6 +1,6 @@
 const express = require('express')
 const cookieParser = require('cookie-parser')
-const routers = require('./routers/indexRouter')
+const routers = require('./routers/index.router')
 const {uploader} = require('./multer')
 
 const app = express()
@@ -28,3 +28,4 @@ const server = app.listen(PORT, () => {
 server.on('error', (error) => {
     console.log('Error', error)
 });
+
