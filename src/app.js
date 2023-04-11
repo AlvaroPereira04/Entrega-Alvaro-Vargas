@@ -14,7 +14,7 @@ app.use('/static', express.static(__dirname + '/public'))
 
 app.use("/api", routers)
 
-app.post('/api/products', uploader.single('thumbnail'), (req, res)=>{
+app.post('/api/products/formulario', uploader.single('thumbnail'), (req, res)=>{
     res.status(200).send({
         status: 'success',
         message: 'se subió correctamente'

@@ -1,9 +1,35 @@
 [
   {
-    "status": false,
-    "thumbnail": [
-      null
-    ],
+    "title": "Iphone 14 Pro Max",
+    "price": "1600",
+    "code": "0001",
+    "stock": "10",
+    "category": "Iphone",
+    "description": "Descripción Iphone 14 Pro Max",
+    "status": true,
+    "thumbnail": [ " sin imagen " ],
     "id": 1
+  },
+  {
+    "title": "Iphone 13 Pro Max",
+    "price": "900",
+    "code": "0002",
+    "stock": "10",
+    "category": "Iphone",
+    "description": "Descripción Iphone 13 Pro Max",
+    "status": true,
+    "thumbnail": [ " sin imagen " ],
+    "id": 2
+  },
+  {
+    "title": "Samsung S23 Ultra",
+    "price": "1000",
+    "code": "0003",
+    "stock": "10",
+    "category": "Samsung",
+    "description": "Descripción Samsung S23 Ultra",
+    "status": true,
+    "thumbnail": [ " sin imagen " ],
+    "id": 3
   }
 ]
